@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B07B8951BB04F2F008CC960 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B07B8941BB04F2F008CC960 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B07B88F1BB04F2F008CC960 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B07B8911BB04F2F008CC960 /* ✅Hiho1234.H-Fractal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "✅Hiho1234.H-Fractal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B07B8941BB04F2F008CC960 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B07B88E1BB04F2F008CC960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B07B8881BB04F2F008CC960 = {
+			isa = PBXGroup;
+			children = (
+				0B07B8931BB04F2F008CC960 /* Hiho1234.H-Fractal */,
+				0B07B8921BB04F2F008CC960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B07B8921BB04F2F008CC960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B07B8911BB04F2F008CC960 /* ✅Hiho1234.H-Fractal */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B07B8931BB04F2F008CC960 /* Hiho1234.H-Fractal */ = {
+			isa = PBXGroup;
+			children = (
+				0B07B8941BB04F2F008CC960 /* main.cpp */,
+			);
+			path = "Hiho1234.H-Fractal";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B07B8901BB04F2F008CC960 /* ✅Hiho1234.H-Fractal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B07B8981BB04F2F008CC960 /* Build configuration list for PBXNativeTarget "✅Hiho1234.H-Fractal" */;
+			buildPhases = (
+				0B07B88D1BB04F2F008CC960 /* Sources */,
+				0B07B88E1BB04F2F008CC960 /* Frameworks */,
+				0B07B88F1BB04F2F008CC960 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "✅Hiho1234.H-Fractal";
+			productName = "Hiho1234.H-Fractal";
+			productReference = 0B07B8911BB04F2F008CC960 /* ✅Hiho1234.H-Fractal */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B07B8891BB04F2F008CC960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = eycia;
+				TargetAttributes = {
+					0B07B8901BB04F2F008CC960 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 0B07B88C1BB04F2F008CC960 /* Build configuration list for PBXProject "✅Hiho1234.H-Fractal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B07B8881BB04F2F008CC960;
+			productRefGroup = 0B07B8921BB04F2F008CC960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B07B8901BB04F2F008CC960 /* ✅Hiho1234.H-Fractal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B07B88D1BB04F2F008CC960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B07B8951BB04F2F008CC960 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B07B8961BB04F2F008CC960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0B07B8971BB04F2F008CC960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0B07B8991BB04F2F008CC960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				GCC_VERSION = 4.9;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-std=c++11",
+				);
+				PRODUCT_NAME = "✅Hiho1234.H-Fractal";
+				SDKROOT = "";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		0B07B89A1BB04F2F008CC960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				GCC_VERSION = 4.9;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-std=c++11",
+				);
+				PRODUCT_NAME = "✅Hiho1234.H-Fractal";
+				SDKROOT = "";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B07B88C1BB04F2F008CC960 /* Build configuration list for PBXProject "✅Hiho1234.H-Fractal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B07B8961BB04F2F008CC960 /* Debug */,
+				0B07B8971BB04F2F008CC960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B07B8981BB04F2F008CC960 /* Build configuration list for PBXNativeTarget "✅Hiho1234.H-Fractal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B07B8991BB04F2F008CC960 /* Debug */,
+				0B07B89A1BB04F2F008CC960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B07B8891BB04F2F008CC960 /* Project object */;
+}

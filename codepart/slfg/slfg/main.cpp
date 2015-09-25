@@ -152,3 +152,21 @@ int main(int argc, const char * argv[]) {
 		printf("Case #%d: %d\n", ff, work());
 	}
 }
+
+/*
+ long long sum(int le, int ri) {
+	int f1 = top[le], f2 =top[ri];
+	long long tmp = 0;
+	while (f1 != f2) {
+		if (dep[f1] < dep[f2]) {
+			swap(f1, f2); swap(le, ri);
+		}
+		tmp += qq[w[le]] - qq[w[f1]-1];
+ 
+		le = fa[f1]; f1 = top[le];
+	}
+	if (le == ri) {return tmp;}
+	if (dep[le] > dep[ri]) swap(le, ri);
+	return tmp + qq[w[ri]] - qq[w[le]];
+ }
+ */

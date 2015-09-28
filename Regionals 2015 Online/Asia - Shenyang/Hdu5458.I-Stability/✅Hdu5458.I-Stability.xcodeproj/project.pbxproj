@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0BE392011BB3D64100080A93 /* Hdu5458.I-Stability */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hdu5458.I-Stability"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE392011BB3D64100080A93 /* ✅Hdu5458.I-Stability */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "✅Hdu5458.I-Stability"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE392041BB3D64100080A93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		0BE392021BB3D64100080A93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BE392011BB3D64100080A93 /* Hdu5458.I-Stability */,
+				0BE392011BB3D64100080A93 /* ✅Hdu5458.I-Stability */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BE392001BB3D64100080A93 /* Hdu5458.I-Stability */ = {
+		0BE392001BB3D64100080A93 /* ✅Hdu5458.I-Stability */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BE392081BB3D64100080A93 /* Build configuration list for PBXNativeTarget "Hdu5458.I-Stability" */;
+			buildConfigurationList = 0BE392081BB3D64100080A93 /* Build configuration list for PBXNativeTarget "✅Hdu5458.I-Stability" */;
 			buildPhases = (
 				0BE391FD1BB3D64100080A93 /* Sources */,
 				0BE391FE1BB3D64100080A93 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "Hdu5458.I-Stability";
+			name = "✅Hdu5458.I-Stability";
 			productName = "Hdu5458.I-Stability";
-			productReference = 0BE392011BB3D64100080A93 /* Hdu5458.I-Stability */;
+			productReference = 0BE392011BB3D64100080A93 /* ✅Hdu5458.I-Stability */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0BE391FC1BB3D64100080A93 /* Build configuration list for PBXProject "Hdu5458.I-Stability" */;
+			buildConfigurationList = 0BE391FC1BB3D64100080A93 /* Build configuration list for PBXProject "✅Hdu5458.I-Stability" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BE392001BB3D64100080A93 /* Hdu5458.I-Stability */,
+				0BE392001BB3D64100080A93 /* ✅Hdu5458.I-Stability */,
 			);
 		};
 /* End PBXProject section */
@@ -211,7 +211,7 @@
 					"$(OTHER_CFLAGS)",
 					"-std=c++11",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "✅Hdu5458.I-Stability";
 			};
 			name = Debug;
 		};
@@ -224,14 +224,14 @@
 					"$(OTHER_CFLAGS)",
 					"-std=c++11",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "✅Hdu5458.I-Stability";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BE391FC1BB3D64100080A93 /* Build configuration list for PBXProject "Hdu5458.I-Stability" */ = {
+		0BE391FC1BB3D64100080A93 /* Build configuration list for PBXProject "✅Hdu5458.I-Stability" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BE392061BB3D64100080A93 /* Debug */,
@@ -240,13 +240,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BE392081BB3D64100080A93 /* Build configuration list for PBXNativeTarget "Hdu5458.I-Stability" */ = {
+		0BE392081BB3D64100080A93 /* Build configuration list for PBXNativeTarget "✅Hdu5458.I-Stability" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BE392091BB3D64100080A93 /* Debug */,
 				0BE3920A1BB3D64100080A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

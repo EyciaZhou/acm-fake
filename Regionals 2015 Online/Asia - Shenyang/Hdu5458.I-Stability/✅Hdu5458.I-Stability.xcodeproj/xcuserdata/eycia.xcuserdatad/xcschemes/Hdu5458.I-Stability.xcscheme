@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0BE392001BB3D64100080A93"
-               BuildableName = "Hdu5458.I-Stability"
-               BlueprintName = "Hdu5458.I-Stability"
-               ReferencedContainer = "container:Hdu5458.I-Stability.xcodeproj">
+               BuildableName = "&#x2705;Hdu5458.I-Stability"
+               BlueprintName = "&#x2705;Hdu5458.I-Stability"
+               ReferencedContainer = "container:&#x2705;Hdu5458.I-Stability.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BE392001BB3D64100080A93"
-            BuildableName = "Hdu5458.I-Stability"
-            BlueprintName = "Hdu5458.I-Stability"
-            ReferencedContainer = "container:Hdu5458.I-Stability.xcodeproj">
+            BuildableName = "&#x2705;Hdu5458.I-Stability"
+            BlueprintName = "&#x2705;Hdu5458.I-Stability"
+            ReferencedContainer = "container:&#x2705;Hdu5458.I-Stability.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BE392001BB3D64100080A93"
-            BuildableName = "Hdu5458.I-Stability"
-            BlueprintName = "Hdu5458.I-Stability"
-            ReferencedContainer = "container:Hdu5458.I-Stability.xcodeproj">
+            BuildableName = "&#x2705;Hdu5458.I-Stability"
+            BlueprintName = "&#x2705;Hdu5458.I-Stability"
+            ReferencedContainer = "container:&#x2705;Hdu5458.I-Stability.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BE392001BB3D64100080A93"
-            BuildableName = "Hdu5458.I-Stability"
-            BlueprintName = "Hdu5458.I-Stability"
-            ReferencedContainer = "container:Hdu5458.I-Stability.xcodeproj">
+            BuildableName = "&#x2705;Hdu5458.I-Stability"
+            BlueprintName = "&#x2705;Hdu5458.I-Stability"
+            ReferencedContainer = "container:&#x2705;Hdu5458.I-Stability.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

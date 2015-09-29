@@ -13,6 +13,8 @@
 #include <cmath>
 using namespace std;
 
+#define eps 1e-8
+
 char tmp[200];
 
 bool mp[205][205];
@@ -99,7 +101,15 @@ int main(int argc, const char * argv[]) {
         cin >> q;
         while (q--) {
             cin >> u >> v;
-            printf("%.4lf\n", area[getf(u*105+v)]);
+			if (area[getf(u*105+v)] < eps) {
+				printf("%.4lf\n", 0.0);
+			} else {
+				printf("%.4lf\n", area[getf(u*105+v)]);
+			}
         }
     }
 }
+/*
+1
+4 4
+*/

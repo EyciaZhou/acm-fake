@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B89AAD31B74B29F00421352 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B89AAD21B74B29F00421352 /* main.cpp */; };
+		0B3E3A601BBA3944005E352B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E3A5F1BBA3944005E352B /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0B89AACD1B74B29F00421352 /* CopyFiles */ = {
+		0B3E3A5A1BBA3944005E352B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B89AACF1B74B29F00421352 /* Vultures.i */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Vultures.i; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B89AAD21B74B29F00421352 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0B3E3A5C1BBA3944005E352B /* ✅Uvalive5817.I-Truchet Tiling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "✅Uvalive5817.I-Truchet Tiling"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3E3A5F1BBA3944005E352B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B89AACC1B74B29F00421352 /* Frameworks */ = {
+		0B3E3A591BBA3944005E352B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B89AAC61B74B29F00421352 = {
+		0B3E3A531BBA3944005E352B = {
 			isa = PBXGroup;
 			children = (
-				0B89AAD11B74B29F00421352 /* Vultures.i */,
-				0B89AAD01B74B29F00421352 /* Products */,
+				0B3E3A5E1BBA3944005E352B /* Uvalive5817.I-Truchet Tiling */,
+				0B3E3A5D1BBA3944005E352B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0B89AAD01B74B29F00421352 /* Products */ = {
+		0B3E3A5D1BBA3944005E352B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B89AACF1B74B29F00421352 /* Vultures.i */,
+				0B3E3A5C1BBA3944005E352B /* ✅Uvalive5817.I-Truchet Tiling */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B89AAD11B74B29F00421352 /* Vultures.i */ = {
+		0B3E3A5E1BBA3944005E352B /* Uvalive5817.I-Truchet Tiling */ = {
 			isa = PBXGroup;
 			children = (
-				0B89AAD21B74B29F00421352 /* main.cpp */,
+				0B3E3A5F1BBA3944005E352B /* main.cpp */,
 			);
-			path = Vultures.i;
+			path = "Uvalive5817.I-Truchet Tiling";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B89AACE1B74B29F00421352 /* Vultures.i */ = {
+		0B3E3A5B1BBA3944005E352B /* ✅Uvalive5817.I-Truchet Tiling */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B89AAD61B74B29F00421352 /* Build configuration list for PBXNativeTarget "Vultures.i" */;
+			buildConfigurationList = 0B3E3A631BBA3944005E352B /* Build configuration list for PBXNativeTarget "✅Uvalive5817.I-Truchet Tiling" */;
 			buildPhases = (
-				0B89AACB1B74B29F00421352 /* Sources */,
-				0B89AACC1B74B29F00421352 /* Frameworks */,
-				0B89AACD1B74B29F00421352 /* CopyFiles */,
+				0B3E3A581BBA3944005E352B /* Sources */,
+				0B3E3A591BBA3944005E352B /* Frameworks */,
+				0B3E3A5A1BBA3944005E352B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Vultures.i;
-			productName = Vultures.i;
-			productReference = 0B89AACF1B74B29F00421352 /* Vultures.i */;
+			name = "✅Uvalive5817.I-Truchet Tiling";
+			productName = "Uvalive5817.I-Truchet Tiling";
+			productReference = 0B3E3A5C1BBA3944005E352B /* ✅Uvalive5817.I-Truchet Tiling */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0B89AAC71B74B29F00421352 /* Project object */ = {
+		0B3E3A541BBA3944005E352B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = eycia;
 				TargetAttributes = {
-					0B89AACE1B74B29F00421352 = {
-						CreatedOnToolsVersion = 6.3;
+					0B3E3A5B1BBA3944005E352B = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
-			buildConfigurationList = 0B89AACA1B74B29F00421352 /* Build configuration list for PBXProject "Vultures.i" */;
+			buildConfigurationList = 0B3E3A571BBA3944005E352B /* Build configuration list for PBXProject "✅Uvalive5817.I-Truchet Tiling" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0B89AAC61B74B29F00421352;
-			productRefGroup = 0B89AAD01B74B29F00421352 /* Products */;
+			mainGroup = 0B3E3A531BBA3944005E352B;
+			productRefGroup = 0B3E3A5D1BBA3944005E352B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B89AACE1B74B29F00421352 /* Vultures.i */,
+				0B3E3A5B1BBA3944005E352B /* ✅Uvalive5817.I-Truchet Tiling */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B89AACB1B74B29F00421352 /* Sources */ = {
+		0B3E3A581BBA3944005E352B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B89AAD31B74B29F00421352 /* main.cpp in Sources */,
+				0B3E3A601BBA3944005E352B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0B89AAD41B74B29F00421352 /* Debug */ = {
+		0B3E3A611BBA3944005E352B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -145,6 +145,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -153,7 +154,6 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -167,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		0B89AAD51B74B29F00421352 /* Release */ = {
+		0B3E3A621BBA3944005E352B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,7 +202,7 @@
 			};
 			name = Release;
 		};
-		0B89AAD71B74B29F00421352 /* Debug */ = {
+		0B3E3A641BBA3944005E352B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LIBRARY = "";
@@ -211,11 +211,11 @@
 					"$(OTHER_CFLAGS)",
 					"-std=c++11",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "✅Uvalive5817.I-Truchet Tiling";
 			};
 			name = Debug;
 		};
-		0B89AAD81B74B29F00421352 /* Release */ = {
+		0B3E3A651BBA3944005E352B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LIBRARY = "";
@@ -224,32 +224,31 @@
 					"$(OTHER_CFLAGS)",
 					"-std=c++11",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "✅Uvalive5817.I-Truchet Tiling";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B89AACA1B74B29F00421352 /* Build configuration list for PBXProject "Vultures.i" */ = {
+		0B3E3A571BBA3944005E352B /* Build configuration list for PBXProject "✅Uvalive5817.I-Truchet Tiling" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B89AAD41B74B29F00421352 /* Debug */,
-				0B89AAD51B74B29F00421352 /* Release */,
+				0B3E3A611BBA3944005E352B /* Debug */,
+				0B3E3A621BBA3944005E352B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B89AAD61B74B29F00421352 /* Build configuration list for PBXNativeTarget "Vultures.i" */ = {
+		0B3E3A631BBA3944005E352B /* Build configuration list for PBXNativeTarget "✅Uvalive5817.I-Truchet Tiling" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B89AAD71B74B29F00421352 /* Debug */,
-				0B89AAD81B74B29F00421352 /* Release */,
+				0B3E3A641BBA3944005E352B /* Debug */,
+				0B3E3A651BBA3944005E352B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0B89AAC71B74B29F00421352 /* Project object */;
+	rootObject = 0B3E3A541BBA3944005E352B /* Project object */;
 }

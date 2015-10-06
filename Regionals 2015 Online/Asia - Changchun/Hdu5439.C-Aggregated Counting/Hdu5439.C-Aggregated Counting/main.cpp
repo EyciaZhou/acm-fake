@@ -36,57 +36,82 @@ vector<int> vec;
  0 1 5 11 23 38 62 90 122 167 217 272 344 422 506 596 708 827 953 1086 1246 1414 1590 1774 1990 2215 2449 2692 2944 3234 3534 3844 4164 4494 4868 5253 5649 6056 6474 6942 7422 7914 8418 8934 9462 10047 10645 11256 11880 12517 13167 13881 14609 15351 16107 16877 17661 18516 19386 20271 21171 22086 23016 24024 25048 26088 27144 28216 29304 30408 31598 32805 34029 35270 36528 37803 39095 40481 41885 43307 44747 46205 47681
  */
 
-bool gr(double uu) {
-	int i = 100;
-	long long k = pow(i, uu);
-	double rate1 = (double)(k) / vec[vec[i]];
+#define ll long long
+
+vector<ll> lst;
+vector<ll> mu;
+vector<ll> mut;
+vector<ll> gst;
+
+//74900845
+
+void init() {
+	lst.reserve(440000);
+	mu.reserve(440000);
+	mut.reserve(440000);
+	gst.reserve(440000);
 	
-	i = 2000;
-	k = pow(i, uu);
-	double rate2 = (double)(k) / vec[vec[i]];
+	lst.push_back(1);
+	lst.push_back(2);
+	lst.push_back(2);
 	
-	return rate1 > rate2;
+	mu.push_back(1);
+	mu.push_back(4);
+	mu.push_back(6);
+	
+	long long k = 4;
+	for (int i = 2; i < 3689; i++) {
+		for (int j = 0; j < lst[i]; j++) {
+			lst.push_back(i+1);
+			mu.push_back((i+1) * k);
+			k++;
+		}
+	}
+	
+	mut.push_back(1);
+	for (int i = 1; i < mu.size(); i++) {
+		mut.push_back(mu[i]+mut[i-1]);
+	}
+	
+	for (int i = 1; i < lst.size(); i++) lst[i] += lst[i-1];
+	
+	gst.push_back(1);
+	for (int i = 1; i < lst.size(); i++) {
+		gst.push_back((lst[i-1]+1+lst[i])*mu[i]/2);
+	}
+	
+	for (int i = 1; i < 3700; i++) gst[i] += gst[i-1];
+	
+	for (int i = 3700; i < gst.size(); i++) gst[i] = (gst[i]+gst[i-1]) % 1000000007;
+}
+
+long long get(long long n) {
+	long k = upper_bound(mut.begin(), mut.end(), n) - mut.begin() - 1;
+	
+	long long p = k+2;
+	long long st = lst[k]+1;
+	long long pos = mut[k];
+	
+	long long ds = (n - pos) / p;
+	long long ss = st+ds-1;
+	
+	long long z = (st + ss) * (p * ds) / 2;
+	
+	long long z2 = (ss+1) * (n-pos-p*ds);
+	
+	return gst[k] + z + z2;
+}
+
+void work(long long n) {
+	cout << get(get(n)) % 1000000007 << endl;
 }
 
 int main(int argc, const char * argv[]) {
-	vec.push_back(0);
-	vec.push_back(1);
-	vec.push_back(2);
-	vec.push_back(2);
-	for (int i = 3; i < 100000; i++) {
-		for (int j = 0; j < vec[i]; j++) {
-			vec.push_back(i);
-		}
+	init();
+	long long t, n;
+	scanf("%lld", &t);
+	for (int i = 0; i < t; i++) {
+		scanf("%lld", &n);
+		work(n);
 	}
-	for (int i = 1; i < vec.size(); i++) {
-		vec[i] = (vec[i] + vec[i-1]) % 1000000007;
-	}
-	
-	/*
-	for (int i = 0; i < 1000; i++) {
-		printf("%d ", lst[i]);
-	}
-	puts("");*/
-	
-	double le = 2, ri = 3;
-	
-	for (int i = 0; i < 100; i++) {
-		double mi = (le + ri) / 2;
-		
-		if (!gr(mi)) {
-			ri = mi;
-		} else {
-			le = mi;
-		}
-	}
-	
-	printf("%.10lf\n", le);
-	
-	for (int i = 0; i < vec.size(); i++) {
-		long long k = pow(i, 2.6142615909);
-		double rate = (double)(k) / vec[vec[i]];
-		printf("%lld %d %lf %d\n ", k, i, rate, vec[vec[i]]);
-	}
-	puts("");
-	cout << vec.size() << endl;
 }

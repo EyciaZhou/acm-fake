@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B7F57DE1BA9B44A00C7ECCE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B7F57DD1BA9B44A00C7ECCE /* main.cpp */; };
+		0B161CF41BC0D0D600DE64A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B161CF31BC0D0D600DE64A5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0B7F57D81BA9B44A00C7ECCE /* CopyFiles */ = {
+		0B161CEE1BC0D0D600DE64A5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B7F57DA1BA9B44A00C7ECCE /* Hdu5439.C-Aggregated Counting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hdu5439.C-Aggregated Counting"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B7F57DD1BA9B44A00C7ECCE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0B161CF01BC0D0D600DE64A5 /* ✅Uvalive7043.I-International Collegiate Routing Contest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "✅Uvalive7043.I-International Collegiate Routing Contest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B161CF31BC0D0D600DE64A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B7F57D71BA9B44A00C7ECCE /* Frameworks */ = {
+		0B161CED1BC0D0D600DE64A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B7F57D11BA9B44A00C7ECCE = {
+		0B161CE71BC0D0D600DE64A5 = {
 			isa = PBXGroup;
 			children = (
-				0B7F57DC1BA9B44A00C7ECCE /* Hdu5439.C-Aggregated Counting */,
-				0B7F57DB1BA9B44A00C7ECCE /* Products */,
+				0B161CF21BC0D0D600DE64A5 /* Uvalive7043.I-International Collegiate Routing Contest */,
+				0B161CF11BC0D0D600DE64A5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0B7F57DB1BA9B44A00C7ECCE /* Products */ = {
+		0B161CF11BC0D0D600DE64A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B7F57DA1BA9B44A00C7ECCE /* Hdu5439.C-Aggregated Counting */,
+				0B161CF01BC0D0D600DE64A5 /* ✅Uvalive7043.I-International Collegiate Routing Contest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B7F57DC1BA9B44A00C7ECCE /* Hdu5439.C-Aggregated Counting */ = {
+		0B161CF21BC0D0D600DE64A5 /* Uvalive7043.I-International Collegiate Routing Contest */ = {
 			isa = PBXGroup;
 			children = (
-				0B7F57DD1BA9B44A00C7ECCE /* main.cpp */,
+				0B161CF31BC0D0D600DE64A5 /* main.cpp */,
 			);
-			path = "Hdu5439.C-Aggregated Counting";
+			path = "Uvalive7043.I-International Collegiate Routing Contest";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B7F57D91BA9B44A00C7ECCE /* Hdu5439.C-Aggregated Counting */ = {
+		0B161CEF1BC0D0D600DE64A5 /* ✅Uvalive7043.I-International Collegiate Routing Contest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B7F57E11BA9B44A00C7ECCE /* Build configuration list for PBXNativeTarget "Hdu5439.C-Aggregated Counting" */;
+			buildConfigurationList = 0B161CF71BC0D0D600DE64A5 /* Build configuration list for PBXNativeTarget "✅Uvalive7043.I-International Collegiate Routing Contest" */;
 			buildPhases = (
-				0B7F57D61BA9B44A00C7ECCE /* Sources */,
-				0B7F57D71BA9B44A00C7ECCE /* Frameworks */,
-				0B7F57D81BA9B44A00C7ECCE /* CopyFiles */,
+				0B161CEC1BC0D0D600DE64A5 /* Sources */,
+				0B161CED1BC0D0D600DE64A5 /* Frameworks */,
+				0B161CEE1BC0D0D600DE64A5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Hdu5439.C-Aggregated Counting";
-			productName = "Hdu5439.C-Aggregated Counting";
-			productReference = 0B7F57DA1BA9B44A00C7ECCE /* Hdu5439.C-Aggregated Counting */;
+			name = "✅Uvalive7043.I-International Collegiate Routing Contest";
+			productName = "Uvalive7043.I-International Collegiate Routing Contest";
+			productReference = 0B161CF01BC0D0D600DE64A5 /* ✅Uvalive7043.I-International Collegiate Routing Contest */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0B7F57D21BA9B44A00C7ECCE /* Project object */ = {
+		0B161CE81BC0D0D600DE64A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = eycia;
 				TargetAttributes = {
-					0B7F57D91BA9B44A00C7ECCE = {
-						CreatedOnToolsVersion = 6.3;
+					0B161CEF1BC0D0D600DE64A5 = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
-			buildConfigurationList = 0B7F57D51BA9B44A00C7ECCE /* Build configuration list for PBXProject "Hdu5439.C-Aggregated Counting" */;
+			buildConfigurationList = 0B161CEB1BC0D0D600DE64A5 /* Build configuration list for PBXProject "✅Uvalive7043.I-International Collegiate Routing Contest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0B7F57D11BA9B44A00C7ECCE;
-			productRefGroup = 0B7F57DB1BA9B44A00C7ECCE /* Products */;
+			mainGroup = 0B161CE71BC0D0D600DE64A5;
+			productRefGroup = 0B161CF11BC0D0D600DE64A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B7F57D91BA9B44A00C7ECCE /* Hdu5439.C-Aggregated Counting */,
+				0B161CEF1BC0D0D600DE64A5 /* ✅Uvalive7043.I-International Collegiate Routing Contest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B7F57D61BA9B44A00C7ECCE /* Sources */ = {
+		0B161CEC1BC0D0D600DE64A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B7F57DE1BA9B44A00C7ECCE /* main.cpp in Sources */,
+				0B161CF41BC0D0D600DE64A5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0B7F57DF1BA9B44A00C7ECCE /* Debug */ = {
+		0B161CF51BC0D0D600DE64A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -145,6 +145,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -153,7 +154,6 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -167,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		0B7F57E01BA9B44A00C7ECCE /* Release */ = {
+		0B161CF61BC0D0D600DE64A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,41 +202,54 @@
 			};
 			name = Release;
 		};
-		0B7F57E21BA9B44A00C7ECCE /* Debug */ = {
+		0B161CF81BC0D0D600DE64A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				CLANG_CXX_LIBRARY = "";
+				GCC_VERSION = 5.2;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-std=c++11",
+				);
+				PRODUCT_NAME = "✅Uvalive7043.I-International Collegiate Routing Contest";
 			};
 			name = Debug;
 		};
-		0B7F57E31BA9B44A00C7ECCE /* Release */ = {
+		0B161CF91BC0D0D600DE64A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				CLANG_CXX_LIBRARY = "";
+				GCC_VERSION = 5.2;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-std=c++11",
+				);
+				PRODUCT_NAME = "✅Uvalive7043.I-International Collegiate Routing Contest";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B7F57D51BA9B44A00C7ECCE /* Build configuration list for PBXProject "Hdu5439.C-Aggregated Counting" */ = {
+		0B161CEB1BC0D0D600DE64A5 /* Build configuration list for PBXProject "✅Uvalive7043.I-International Collegiate Routing Contest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B7F57DF1BA9B44A00C7ECCE /* Debug */,
-				0B7F57E01BA9B44A00C7ECCE /* Release */,
+				0B161CF51BC0D0D600DE64A5 /* Debug */,
+				0B161CF61BC0D0D600DE64A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B7F57E11BA9B44A00C7ECCE /* Build configuration list for PBXNativeTarget "Hdu5439.C-Aggregated Counting" */ = {
+		0B161CF71BC0D0D600DE64A5 /* Build configuration list for PBXNativeTarget "✅Uvalive7043.I-International Collegiate Routing Contest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B7F57E21BA9B44A00C7ECCE /* Debug */,
-				0B7F57E31BA9B44A00C7ECCE /* Release */,
+				0B161CF81BC0D0D600DE64A5 /* Debug */,
+				0B161CF91BC0D0D600DE64A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0B7F57D21BA9B44A00C7ECCE /* Project object */;
+	rootObject = 0B161CE81BC0D0D600DE64A5 /* Project object */;
 }
